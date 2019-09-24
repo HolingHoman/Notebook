@@ -43,9 +43,19 @@ document.querySelector('#add-notebook').addEventListener('click', function () {
 document.querySelector('#save-edit-notebook').addEventListener('click', function () {
     dataNote[y] = TextArea.value;
     TextArea.value = '';
-    let p = document.querySelector(`.notebook .notebook__date-list p[data-time="${y}"]`);
+    let EditP = document.querySelector(`.notebook .notebook__date-list p[data-time="${y}"]`);
     setTimeout(function () {
-        p.removeAttribute('style');
+        EditP.removeAttribute('style');
     }, 2000);
-    p.style.color = '#ff4b44';
+    EditP.style.color = '#ff4b44';
+});
+document.querySelector('#delete-note-notebook').addEventListener('click', function () {
+    let s = document.querySelector(`.notebook .notebook__date-list p[data-time="${y}"]`);
+    s.remove();
+    TextArea.value = '';
+    for(let element in dataNote){
+        if(element == s.innerText){
+            delete dataNote[s.innerText]
+        }
+    }
 });
