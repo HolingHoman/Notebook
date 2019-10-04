@@ -3,6 +3,18 @@ let dataNote = {};
 let TextArea = document.querySelector('#notebook-input');
 let y;
 
+function finalFnc(data){
+    console.log(data.response);
+}
+function dataFnc(data){
+    let out = '';
+    for(let key in data){
+        out += `${key}=${data[key]}&`;
+    }
+    console.log(out);
+    return out;
+}
+
 document.querySelector('#add-notebook').addEventListener('click', function () {
     if (TextArea.value == ''){
         alert('Блокнот пустой!');
@@ -19,18 +31,26 @@ document.querySelector('#add-notebook').addEventListener('click', function () {
         if (TimeS > 0 && TimeS < 9 || TimeS === 0){
             TimeS = `0${TimeS}`;
         }
-        if (TimeMonth > 0 && TimeMonth < 9 || TimeMonth === 0){
+        if (TimeMonth > 0 && TimeMonth <= 9 || TimeMonth === 0){
             TimeMonth = `0${TimeMonth}`;
         }
         if (TimeM > 0 && TimeM < 9 || TimeM === 0){
             TimeM = `0${TimeM}`;
         }
-        let dateNow = `${TimeH}:${TimeM}:${TimeS} ${TimeD}:${TimeMonth}:${TimeY}`;
+        if (TimeD > 0 && TimeD < 9 || TimeD === 0){
+            TimeD = `0${TimeD}`;
+        }
+        let dateNow = `${TimeY}-${TimeMonth}-${TimeD} ${TimeH}:${TimeM}:${TimeS}`;
         addTag.innerText = dateNow;
         dataNote[dateNow] = TextArea.value;
         listNote.prepend(addTag);
         addTag.dataset.time = addTag.innerText;
+        let data = {
+            time: dateNow,
+            text: TextArea.value
+        };
         TextArea.value = '';
+        ajax('POST', 'php/signup.php', finalFnc, dataFnc(data));
         document.querySelectorAll('.notebook .notebook__date-list p').forEach(function (element) {
             element.onclick = function () {
                 y = element.innerText;

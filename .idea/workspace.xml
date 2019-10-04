@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1b118ada-17d0-4040-b672-ed5c58ef7de0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js/scripts/ajax.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/hero.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="main scss" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+    <option name="SCHEME" value="Project" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1OW0tFo7fXYYYkiZh3Ttu4HymDg" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Holing\Desktop\Project\Notebook\php" />
+      <recent name="C:\Users\Holing\Desktop\Project\Notebook\js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b118ada-17d0-4040-b672-ed5c58ef7de0" name="Default Changelist" comment="" />
+      <created>1564078259004</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564078259004</updated>
+      <workItem from="1564078261804" duration="590000" />
+      <workItem from="1564131440778" duration="8617000" />
+      <workItem from="1564157215387" duration="1982000" />
+      <workItem from="1564209388016" duration="19997000" />
+      <workItem from="1564306093726" duration="6847000" />
+      <workItem from="1564337067329" duration="2805000" />
+      <workItem from="1564483871736" duration="5544000" />
+      <workItem from="1564569096051" duration="5000" />
+      <workItem from="1564569113546" duration="4000" />
+      <workItem from="1564682865481" duration="17000" />
+      <workItem from="1564704905606" duration="6068000" />
+      <workItem from="1564889065875" duration="7133000" />
+      <workItem from="1564896373338" duration="8137000" />
+      <workItem from="1565838125094" duration="2124000" />
+      <workItem from="1566367323560" duration="3575000" />
+      <workItem from="1566485344516" duration="259000" />
+      <workItem from="1566561012199" duration="532000" />
+      <workItem from="1566580846592" duration="250000" />
+      <workItem from="1566581130327" duration="9260000" />
+      <workItem from="1566629345980" duration="8869000" />
+      <workItem from="1566689100393" duration="1613000" />
+      <workItem from="1566825260927" duration="2895000" />
+      <workItem from="1566868421921" duration="599000" />
+      <workItem from="1566929648913" duration="1620000" />
+      <workItem from="1567042125313" duration="1556000" />
+      <workItem from="1567211254667" duration="606000" />
+      <workItem from="1567301902115" duration="867000" />
+      <workItem from="1567565676334" duration="7473000" />
+      <workItem from="1567754013191" duration="20000" />
+      <workItem from="1567765210805" duration="19000" />
+      <workItem from="1567765237875" duration="175000" />
+      <workItem from="1567769330658" duration="4049000" />
+      <workItem from="1567774182194" duration="3470000" />
+      <workItem from="1567822705572" duration="9023000" />
+      <workItem from="1567915770765" duration="2490000" />
+      <workItem from="1567925581083" duration="15000" />
+      <workItem from="1567925632801" duration="233000" />
+      <workItem from="1568183557516" duration="3009000" />
+      <workItem from="1568268687160" duration="28000" />
+      <workItem from="1568270855005" duration="3200000" />
+      <workItem from="1568306348989" duration="609000" />
+      <workItem from="1568744623721" duration="1425000" />
+      <workItem from="1568805255039" duration="376000" />
+      <workItem from="1568926179060" duration="1562000" />
+      <workItem from="1569120668037" duration="12747000" />
+      <workItem from="1569209014384" duration="5919000" />
+      <workItem from="1569291086111" duration="4208000" />
+      <workItem from="1569393782555" duration="601000" />
+      <workItem from="1569479957044" duration="2756000" />
+      <workItem from="1570193647421" duration="11904000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
