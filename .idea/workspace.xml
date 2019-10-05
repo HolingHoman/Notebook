@@ -2,12 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b118ada-17d0-4040-b672-ed5c58ef7de0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/scripts/ajax.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Create.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Create.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Notebook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Notebook.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/file.template.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/file.template.settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/hero.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/scripts/ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts/ajax.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/signup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,14 +44,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1OW0tFo7fXYYYkiZh3Ttu4HymDg" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -119,7 +131,8 @@
       <workItem from="1569291086111" duration="4208000" />
       <workItem from="1569393782555" duration="601000" />
       <workItem from="1569479957044" duration="2756000" />
-      <workItem from="1570193647421" duration="11904000" />
+      <workItem from="1570193647421" duration="12217000" />
+      <workItem from="1570295711710" duration="964000" />
     </task>
     <servers />
   </component>
