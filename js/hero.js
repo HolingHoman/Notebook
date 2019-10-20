@@ -2,22 +2,23 @@ let listNote = document.querySelector('.notebook__date-list');
 let dataNote = {};
 let TextArea = document.querySelector('#notebook-input');
 let y;
+let Propfalse = document.querySelector('.propFalse');
+let Proptrue = document.querySelector('.propTrue');
 
 function finalFnc(data){
-    console.log(data.response);
+    prop(true);
 }
 function dataFnc(data){
     let out = '';
     for(let key in data){
         out += `${key}=${data[key]}&`;
     }
-    console.log(out);
     return out;
 }
 
 document.querySelector('#add-notebook').addEventListener('click', function () {
     if (TextArea.value == ''){
-        alert('Блокнот пустой!');
+        prop(false);
     }
     else{
         let date = new Date;
@@ -50,7 +51,17 @@ document.querySelector('#add-notebook').addEventListener('click', function () {
             text: TextArea.value
         };
         TextArea.value = '';
-        ajax('POST', 'php/signup.php', finalFnc, dataFnc(data));
+        try {
+            ajax('POST', 'php/signup.php', finalFnc, dataFnc(data));
+        }
+        catch (e) {
+            if(e){
+                Propfalse.classList.remove('hide');
+                setTimeout(function () {
+                    Propfalse.classList.add('hide');
+                }, 2000);
+            }
+        }
         document.querySelectorAll('.notebook .notebook__date-list p').forEach(function (element) {
             element.onclick = function () {
                 y = element.innerText;
@@ -79,3 +90,34 @@ document.querySelector('#delete-note-notebook').addEventListener('click', functi
         }
     }
 });
+
+
+
+function prop(Param) {
+    let prop = document.createElement('div');
+    let h4 = document.createElement('h4');
+    let p = document.createElement('p');
+    prop.classList.add('prop');
+    prop.appendChild(h4);
+    prop.appendChild(p);
+    document.body.appendChild(prop);
+    if(Param){
+        prop.classList.add('propTrue');
+        h4.textContent = 'Успешно';
+        p.textContent = `Операция прошла успешно!`;
+        removeProp(prop);
+        prop.style.opacity = `1`;
+    }
+    else{
+        prop.classList.add('propFalse');
+        h4.textContent = 'Ошибка';
+        p.textContent = `Во время выполнения операции произошла ошибка!`;
+        removeProp(prop);
+        prop.style.opacity = `1`;
+    }
+}
+function removeProp(prop) {
+    setTimeout(function () {
+        prop.remove();
+    }, 2800);
+}

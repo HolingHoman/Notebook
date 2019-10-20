@@ -31,6 +31,8 @@
   .notebook__date-list{
     width: 20%;
     padding: 10px 2%;
+    scroll-behavior: smooth;
+    overflow: scroll;
     p{
       cursor: pointer;
       margin: 0 0 10px 0;
@@ -46,5 +48,28 @@
   text-transform: uppercase;
   margin: 10px auto;
   display: block;
+}
+.prop{
+  width: 300px;
+  border-radius: 4px;
+  position: fixed;
+  right: 2%;
+  top: 2%;
+  padding: 5px 0 5px 5px;
+  opacity: 0;
+  transition: all 1s ease;
+  h4{
+    color: white;
+    text-transform: uppercase;
+  }
+  p{
+    color: white;
+  }
+}
+.propFalse{
+  background-color: red;
+}
+.propTrue{
+  background-color: green;
 }
 
